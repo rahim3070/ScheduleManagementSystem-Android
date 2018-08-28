@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/sysLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="System Login"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:text="Schedule Management"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textStyle="bold" />-->
+
+        <TextView
+            android:id="@+id/loginInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sysLogin"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Please Enter Your Information"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/userNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginInfo"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your Username"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userNameET"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/signInBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordET"
+            android:layout_marginTop="10dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signInBtn"
+            android:layout_marginTop="160dp"
+            android:text="@string/design_and_developed_by_tango_charlie"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

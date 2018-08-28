@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+    <!--android:id="@+id/dashboardMenuId"-->
+    <!--app:showAsAction="never"-->
+    <!--android:title="Dash Board" />-->
+    <!--<item-->
+    <!--android:id="@+id/empInfoMenuId"-->
+    <!--app:showAsAction="never"-->
+    <!--android:title="Employee Info" />-->
+    <item
+        android:id="@+id/scheduleInfoMenuId"
+        android:title="Add New Schedule"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/scheduleAssignMenuId"
+        android:title="Assign Schedule"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/reportMenuId"
+        android:title="Report"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/viewScheduleInfoMenuId"
+        android:title="View All Schedule Info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/viewScheduleAssignMenuId"
+        android:title="View Assigned Schedule Info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logoutMenuId"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

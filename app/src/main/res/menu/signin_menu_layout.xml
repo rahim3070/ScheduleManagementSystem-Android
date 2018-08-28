@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/grayMenuId"
+        android:title="Gray"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/darkergrayMenuId"
+        android:title="Darker Gray"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/lightinverseMenuId"
+        android:title="Light Inverse"
+        app:showAsAction="never" />
+</menu>
